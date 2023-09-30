@@ -1,22 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fancy Love Message</title>
+    <title>I Love You, Olivia</title>
     <style>
-        /* Styling for the message */
-        .fancy-message {
-            font-family: 'Segoe Script', cursive;
-            font-size: 36px;
-            color: #ff3399; /* Pink color */
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+        body {
+            background-color: #ffffff; /* Set the background color */
+            text-align: center;
+        }
+
+        #heart {
+            font-size: 48px; /* Adjust the font size as needed */
+            color: red; /* Heart color */
+        }
+
+        #message {
+            font-size: 24px; /* Adjust the font size as needed */
+            margin-top: 20px;
+        }
+
+        #image-container {
+            margin-top: 20px;
+        }
+
+        #image-container img {
+            max-width: 100%; /* Ensure the image doesn't exceed its container */
+            height: auto;
         }
     </style>
 </head>
 <body>
-    <div class="fancy-message">
-        I <span style="color: #ff66cc;">love</span> you, <span style="color: #33ccff;">Olivia</span>!
+    <div id="heart">♥</div>
+    <div id="message">I Love You, Olivia</div>
+    
+    <!-- Replace 'IMAGE_URL' with the actual URL of your white horse riding aesthetic image -->
+    <div id="image-container">
+        <img src="https://i.pinimg.com/736x/a8/54/e6/a854e607a17703fa7d51914558da8ab4.jpg" alt="White Horse Riding Aesthetic">
     </div>
 </body>
 </html>
